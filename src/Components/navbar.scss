@@ -1,0 +1,89 @@
+ 
+
+
+    .Navbar{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+     
+        background: #FFFFFF;
+     box-shadow: 3px 0px 20px rgba(0, 0, 0, 0.04);
+     height: 100px;
+     padding: 0 20px;
+     position: sticky;
+     top: 0;
+     z-index: 100;
+         .search-bar{            
+             position: relative;
+             .search-btn{
+                 position: absolute;
+                width: 56px;
+                height: 40px;
+                  right:1px;
+                  bottom:0px;
+                  
+                background-color: #39CDCC;
+                display: flex;
+                align-items: center;
+                justify-content: center;     
+     
+             }
+
+             input{
+                 width:400px;
+                 height: 40px;
+                 background: #FFFFFF;
+                 opacity: 0.2;
+                 border: 1px solid #213F7D;
+                 border-radius: 8px;                
+             }
+             .input-img{
+                 display: flex;    
+                 align-items: center;
+                 justify-content: center;
+             }
+         }
+        .nav-item {
+           .nav-list{
+             list-style: none;
+           }
+           li{
+             display: flex;
+             align-items: center;
+             justify-content: center;
+           }
+           a{
+             color: #213F7D;
+           }
+        }
+        .notify{
+         display: flex;
+         align-items: center;
+        }
+        .user-container{
+          display: flex;
+          align-items: center;
+          justify-content: center;
+            padding: 30px;
+            gap: 10px;
+            .user-img{
+             
+                border: 1px solid;
+                width:30px;
+                height: 30px;
+                border-radius: 50%;
+                
+              
+      
+              }
+        }
+    
+    }
+  
+@media (max-width:500px) {
+  .Navbar{
+    width: 100%;
+    min-width: 850px;
+    box-shadow: 0px 0px 0px rgba(0, 0, 0, 0);
+  }
+}

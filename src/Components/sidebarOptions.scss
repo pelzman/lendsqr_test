@@ -1,0 +1,50 @@
+.sidebar-option{
+    width: 100%;
+    padding: 0 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0;
+    cursor: pointer;
+    gap: 13px;
+    img{
+   width: 19px;
+   height: 12px;
+   margin-left: 10px;   
+  
+    }
+    &:hover{
+        background-color:  #e2f7f7;;
+        color: #39CDCC; ;
+        transition: color 100ms ease-out;
+        border-left: 3px solid  #39CDCC;
+        padding: 10px;
+       }
+       &--active{
+        color:  #39CDCC;;
+       }
+    h3{
+        width: 200px;
+        height: 19px;
+        
+        font-family: 'Work Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19px;
+        /* identical to box height */
+        
+        
+        color: #213F7D;
+    }
+}
+
+@media(max-width:767px){
+    h3{
+      display: none;
+    }
+    img{
+        margin-left:0;
+    }
+
+  }

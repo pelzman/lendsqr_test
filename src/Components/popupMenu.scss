@@ -1,0 +1,55 @@
+
+  .popup-container{   
+    width: 180px;
+    background: #ffff;
+    border: 1px solid rgba(84, 95, 125, 0.04);
+    box-shadow: 3px 5px 20px rgba(0, 0, 0, 0.04);
+    border-radius: 4px;
+    margin-right: 50px; 
+    color: #545F7D;     
+    cursor: pointer;
+    .detail{
+      display: flex;
+      align-items: center;
+      justify-content: start;
+      gap:5px;
+      margin-top: 20px;
+     
+  
+    }
+    .detail-link{
+      text-decoration: none;
+    }
+    img{
+      width: 15px;
+      height: 15px;
+     
+     h4{
+      width: 85px;
+  height: 16px;
+  
+  font-family: 'Work Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+
+  color: #545F7D;
+  gap:5px;
+     }
+    }
+    .blacklist{
+      display: flex;
+      align-items: center;
+      justify-content: start;
+     
+      gap:5px;
+    }
+    .active{
+      display: flex;
+      align-items: center;
+      justify-content: start;
+      gap:5px;      
+    }
+  }
+

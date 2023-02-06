@@ -1,0 +1,265 @@
+.profile{
+   margin-top: 65px; 
+   margin-left: 62px;
+ 
+ width: 100%;
+   .profile-nav{
+    display: flex;
+    gap: 15px;
+   }
+   .profile-head{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .user-detail{
+    margin-top: 32px;  
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    color: #213F7D;
+    }
+    .profile-btns{
+      display: flex;      
+      gap: 20px;
+      cursor: pointer;
+      .blacklist-btn{
+        width: 170px;
+        height: 40px;
+        border: 1px solid #E4033B;
+        border-radius: 8px;
+        font-family: 'Work Sans';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 16px;
+       
+
+        text-align: center;
+        letter-spacing: 0.1em;
+        text-transform: uppercase;
+
+        color: #E4033B;
+      } 
+      .activate-btn{
+        width: 170px;
+        height: 40px;
+       
+        border: 1px solid #39CDCC;
+        border-radius: 8px;
+                
+        font-family: 'Work Sans';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 16px;
+        
+
+        text-align: center;
+        letter-spacing: 0.1em;
+        text-transform: uppercase;
+
+        color: #39CDCC;
+    } 
+    }
+   }
+   .profile-box{  
+    
+    height: 210px;  
+
+    background: #FFFFFF;
+    border: 1px solid rgba(33, 63, 125, 0.06);
+    box-shadow: 3px 5px 20px rgba(0, 0, 0, 0.04);
+    border-radius: 4px;
+
+    .profile-container{
+     
+        margin-top: 30px;
+        margin-bottom: 30px; 
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+    .divider{
+    
+    height: 80px;
+    border-left:1px solid #545F7D; ;
+    opacity: 0.2;
+    
+        }
+    .profile-imgText{
+       
+    display: flex;
+    justify-content: center;
+    align-items: center;
+        gap:20px;
+    .profile-img{
+     width: 100px;
+    height: 100px;   
+    background: #213F7D;
+    opacity: 0.16;
+    border-radius: 50%;
+    margin-bottom: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .image{
+        display: flex;
+        align-self: center;
+        background-color: #0e172b
+
+    }
+    
+    }
+           
+.profile-name{
+    display: block;
+            }
+        
+        .user-tier{
+         .tier-text{
+            
+        font-family: 'Work Sans';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 16px;
+    
+        color: #545F7D; 
+         }
+         .profile-bank{
+            font-family: 'Work Sans';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 22px;
+            line-height: 26px;
+    
+            color: #213F7D;
+         }   
+        }
+    }
+}
+       .items{
+        display: flex;
+        list-style: none;
+        align-items: center;
+        justify-content: space-evenly;
+        margin-top: 51px; 
+           
+
+        li{
+            margin-bottom: 30px; 
+        a{
+        text-decoration: none;
+        font-family: 'Work Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19px;
+        /* identical to box height */
+        
+        text-align: center;
+
+        color: #39CDCC;
+            }
+            &:hover{
+                background-color:  #e2f7f7;;
+                color: #39CDCC; ;                
+                border-bottom: 1px solid  #39CDCC;
+                
+               }
+             
+        }
+       } 
+    
+}
+   
+   .profile-table{
+    width: 100%;
+    height: 1100px;
+    background: #FFFFFF;
+    border: 1px solid rgba(33, 63, 125, 0.06);
+    box-shadow: 3px 5px 20px rgba(0, 0, 0, 0.04);
+    border-radius: 4px;
+    margin-top:30px ;
+   .table-info{
+    margin-top: 30px ;
+    margin-left: 30px;
+    h2{
+        
+        font-family: 'Work Sans';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 19px;
+        /* identical to box height */
+    
+    
+        color: #213F7D;
+        }
+        table thead  {
+         
+               
+                border-bottom: 1px solid #21407d13;
+                
+                width: 100px;    
+                 
+
+            
+               
+                tr{
+                    display: flex;
+                   
+                    
+                    th{
+                     font-family: 'Work Sans';
+                     font-style: normal;
+                     font-weight: 400;
+                     font-size: 12px;
+                     line-height: 14px;
+                     /* identical to box height */
+                    margin-top: 30px;
+                    margin-bottom: 50px;
+                    padding-left: 55px;
+                     text-transform: uppercase;
+                     text-align: start;
+                    //  margin-bottom: 58px;
+                     
+                     color: #545F7D;
+                    }         
+             
+                         }
+            
+            tbody{
+               tr{
+                td{
+                    padding-left: 40px;
+                }
+               }
+            }
+         
+        }
+   }
+
+   }
+ 
+   
+
+  
+  
+}
+
+@media (max-width:'992px') {
+  .profile{
+   
+    .profile-container{
+        display: none;
+    }
+    .profile-btns{
+        display: block;
+    }
+    
+  }  
+    
+}
