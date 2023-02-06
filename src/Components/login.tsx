@@ -68,7 +68,7 @@ else{
 
      <p className='forget-password'>FORGOT PASSWORD?</p>
    
-    <Link to='/user'><button className='form-btn'>Login</button> </Link>
+    <Link to='/dashboard'><button className='form-btn'>Login</button> </Link>
 
           </form>           
         </div>

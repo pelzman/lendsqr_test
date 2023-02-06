@@ -20,7 +20,7 @@ const User = () => {
    
   const pageCount= Math.ceil(data.length/userPerPage)
 
-  const handleOnChangePage=({selected})=>{
+  const handleOnChangePage=({selected}:{selected:number})=>{
   setPageNumber(selected)
   }
   useEffect(() => {
